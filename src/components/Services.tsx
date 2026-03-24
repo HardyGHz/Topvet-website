@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { Stethoscope, Syringe, HeartPulse, ShoppingBag, Scissors, CalendarCheck } from 'lucide-react';
 

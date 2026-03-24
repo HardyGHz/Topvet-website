@@ -1,0 +1,13 @@
+
+> topvet-website@0.0.0 build
+> tsc -b && vite build
+
+src/App.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/AboutUs.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/CtaBlock.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/Footer.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/Gallery.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/Header.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/components/Hero.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/Services.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/Testimonials.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
