@@ -39,10 +39,17 @@ export default function Header() {
             <a href="#despre" className="text-sm font-medium text-slate-600 hover:text-emerald-500 transition-colors">Despre Noi</a>
             <a href="#servicii" className="text-sm font-medium text-slate-600 hover:text-emerald-500 transition-colors">Servicii</a>
             <a href="#recenzii" className="text-sm font-medium text-slate-600 hover:text-emerald-500 transition-colors">Păreri clienți</a>
+            <a href="#faq" className="text-sm font-medium text-slate-600 hover:text-emerald-500 transition-colors">FAQ</a>
           </nav>
 
           {/* CTA & Mobile Toggle */}
           <div className="flex items-center gap-4">
+            <a
+              href="#programare"
+              className="hidden md:flex items-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-all hover:-translate-y-0.5"
+            >
+              Programare
+            </a>
             <a 
               href="tel:+40756014828" 
               className="hidden md:flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-all hover:-translate-y-0.5"
@@ -68,6 +75,8 @@ export default function Header() {
           <a href="#despre" className="text-base font-medium text-slate-700 p-2 rounded-lg hover:bg-emerald-50" onClick={() => setIsMobileMenuOpen(false)}>Despre Noi</a>
           <a href="#servicii" className="text-base font-medium text-slate-700 p-2 rounded-lg hover:bg-emerald-50" onClick={() => setIsMobileMenuOpen(false)}>Servicii</a>
           <a href="#recenzii" className="text-base font-medium text-slate-700 p-2 rounded-lg hover:bg-emerald-50" onClick={() => setIsMobileMenuOpen(false)}>Păreri clienți</a>
+          <a href="#faq" className="text-base font-medium text-slate-700 p-2 rounded-lg hover:bg-emerald-50" onClick={() => setIsMobileMenuOpen(false)}>FAQ</a>
+          <a href="#programare" className="text-base font-medium text-slate-700 p-2 rounded-lg hover:bg-emerald-50" onClick={() => setIsMobileMenuOpen(false)}>Programare</a>
           <a href="tel:+40756014828" className="flex items-center justify-center gap-2 bg-emerald-500 text-white p-3 rounded-xl font-semibold mt-2">
             <PhoneCall size={18} /> Call Acum
           </a>

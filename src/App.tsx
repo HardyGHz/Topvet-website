@@ -5,7 +5,8 @@ import Services from './components/Services';
 import AboutUs from './components/AboutUs';
 import Gallery from './components/Gallery';
 import Testimonials from './components/Testimonials';
-import CtaBlock from './components/CtaBlock';
+import FAQ from './components/FAQ';
+import BookingForm from './components/BookingForm';
 import Footer from './components/Footer';
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
         <Services />
         <Gallery />
         <Testimonials />
-        <CtaBlock />
+        <FAQ />
+        <BookingForm />
       </main>
       <Footer />
     </div>

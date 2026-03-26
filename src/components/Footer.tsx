@@ -72,6 +72,8 @@ export default function Footer() {
               <li><a href="#despre" className="text-slate-400 hover:text-emerald-400 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-emerald-500"></div> Despre Cabinet</a></li>
               <li><a href="#servicii" className="text-slate-400 hover:text-emerald-400 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-emerald-500"></div> Serviciile noastre</a></li>
               <li><a href="#recenzii" className="text-slate-400 hover:text-emerald-400 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-emerald-500"></div> Păreri clienți</a></li>
+              <li><a href="#faq" className="text-slate-400 hover:text-emerald-400 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-emerald-500"></div> Întrebări frecvente</a></li>
+              <li><a href="#programare" className="text-slate-400 hover:text-emerald-400 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-emerald-500"></div> Programare online</a></li>
               <li><a href="#" className="text-slate-400 hover:text-emerald-400 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-emerald-500"></div> Politica de Confidențialitate</a></li>
             </ul>
           </div>
